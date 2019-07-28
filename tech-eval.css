@@ -3,6 +3,10 @@
     font-family: 'Libre Franklin', sans-serif;
 }
 
+body { 
+    box-sizing: border-box;
+}
+
 #navbar {
     background: skyblue;
     color: white;
