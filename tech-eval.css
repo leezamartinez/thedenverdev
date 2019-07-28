@@ -73,13 +73,26 @@ button {
 }
 
 #hero {
-    background-image: url(https://previews.123rf.com/images/palau83/palau831402/palau83140201195/25793604-seamless-background-envelope-newsletter-style-illustration-design.jpg)
+    background-image: url(https://previews.123rf.com/images/palau83/palau831402/palau83140201195/25793604-seamless-background-envelope-newsletter-style-illustration-design.jpg);
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    height: 250px;
 }
+
 
 footer {
     margin: 10px;
     padding: 20px;
     float: center;
     align-items: center;
-    background: lightblue;
+    background: skyblue;
     color: white;
+}
+
+#star {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
