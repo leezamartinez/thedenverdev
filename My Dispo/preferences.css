@@ -1,0 +1,152 @@
+* {
+    box-sizing: initial;
+    font-family: 'Archivo', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    color: white;
+    background-image: url("https://media1.giphy.com/media/4LlTwUsF6M8Sc/giphy.gif?cid=790b76115d47a7e55247347a492812ef&rid=giphy.gif");  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(61, 61, 61, 0.5);
+}
+
+.section {
+    padding: 10px;
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+}
+
+.fa-cannabis {
+    display: inline-flex;
+    text-align: center;
+    flex-basis: 2px;
+    height: 30px;
+    width: 35px;
+    padding-top: 25px;
+    padding-right: 45px;
+    color: whitesmoke;
+}
+
+.flower {
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 105px;
+    width: 90px;
+    background: rgba(94, 94, 94, 0.6);
+}
+
+.fa-tint {
+    flex-basis: 2px;
+    height: 30px;
+    width: 35px;
+    padding-top: 25px;
+    color: whitesmoke;
+}
+
+.concentrates {
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 105px;
+    width: 90px;
+    background: rgba(94, 94, 94, 0.6);
+}
+
+.fa-cookie-bite {
+    display: grid;
+    flex-basis: 1px;
+    height: 30px;
+    width: 35px;
+    padding-top: 25px;
+    padding-right: 45px;
+    color: whitesmoke;
+}
+
+.edibles { 
+    flex-wrap: wrap;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 105px;
+    width: 90px;
+    background: rgba(94, 94, 94, 0.6);
+}
+
+.fa-hand-paper {
+    display: grid;
+    flex-basis: 2px;
+    height: 30px;
+    width: 35px;
+    padding-top: 25px;
+    padding-right: 45px;
+    color: whitesmoke;
+}
+
+.topicals {
+    flex-wrap: wrap;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 105px;
+    width: 90px;
+    background: rgba(94, 94, 94, 0.6);
+}
+
+h1 {
+    padding: 10px;
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.form-check-inline {
+    top: 20px;
+    display: inline-block;
+    padding: 28x;
+    flex-basis: 2;
+}
+
+label {
+  color: white;
+  margin-left: 10px;
+  justify-content: center;
+  max-width: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.form-check-label {
+    display: inline-flex;
+    padding: 10px;
+    margin-right: 5px;
+    text-align: right;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.form {
+    text-align: center;
+    padding: 50px;
+
+}
+
+
+.btn-primary {
+    position: relative;
+    display: inline-block;
+    top: 50px;
+}
