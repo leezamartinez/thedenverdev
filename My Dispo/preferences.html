@@ -7,14 +7,15 @@
         <link rel="stylesheet" type="text/css" href="preferences.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/cb463d56ca.js"></script>
-        <script type="text/javascript" src="prefs.js"></script>
     </head>
     <body>
         <section>
             <br>
-            <div class='overlay'><h1>I want to hear about <br> these categories</h1></div>
-            <br>
+            <div class='overlay'>
+                <h1>I would like to hear about:</h1>
+                <h2> Select all that apply</h2>
             <div class="form">
+                <div class="border">
             <div class="form-check form-check-inline">
                 <div class="flower">
                 <p><i class="fas fa-cannabis fa-3x"></i></p>
@@ -29,9 +30,10 @@
                 <label class="form-check-label" for="defaultCheck2"> Edibles</label>
                 </div>
             </div>
+            <br>
             <div class="form-check form-check-inline">
                 <div class="topicals">
-                <p><i class="fas fa-hand-paper fa-3x"></i></p>
+                <p><i class="fas fa-spray-can fa-3x"></i></p>
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
                 <label class="form-check-label" for="defaultCheck3"> Topicals </label>
                 </div>
@@ -40,12 +42,43 @@
                 <div class="concentrates">
                     <p><i class="fas fa-tint fa-3x"></i></p>
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
-                    <label class="form-check-label" for="defaultCheck4">Dabbery</label>
+                    <label class="form-check-label" for="defaultCheck4">Concentrates</label>
                 </div>
             </div>
-            <p id=demo></p>
-            <button type="button" class='btn btn-primary' onclick="myFunction()">Next</button>
-        </div>
-    </section>
+            <br>
+                <div class="form-check form-check-inline">
+                    <div class="day">
+                        <p><i class="fas fa-sun fa-3x"></i></p>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1"> Sativa</label>
+                    </div>
+                </div>
+                <div class="form-check form-check-inline">
+                    <div class="night">
+                        <p><i class="fas fa-moon fa-3x"></i></p>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2"> Indica</label>
+                    </div>
+                </div>
+            <br>
+                <div class="form-check form-check-inline">
+                    <div class="hybrid">
+                        <p><i class="fas fa-dna fa-3x"></i></p>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                        <label class="form-check-label" for="defaultCheck3"> Hybrid </label>
+                    </div>
+                </div>
+                <div class="form-check form-check-inline">
+                    <div class="cbd">
+                        <p><i class="fas fa-plus-square fa-3x"></i></p>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                        <label class="form-check-label" for="defaultCheck4">CBD</label>
+                        <p id=demo></p>
+                        <div class="skip"><h2>Skip</h2><button type="button" class='btn btn-primary' method="get" onclick="myFunction()">Next</button></div>
+                    </div>
+                </div>
+            </div>
+     </div>
+        </section>
 </body>
 </html>

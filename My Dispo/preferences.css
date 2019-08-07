@@ -6,10 +6,14 @@
 body {
     margin: 0;
     padding: 10px;
-    color: white;
-    background-image: url("https://media1.giphy.com/media/4LlTwUsF6M8Sc/giphy.gif?cid=790b76115d47a7e55247347a492812ef&rid=giphy.gif");  
-    background-repeat: no-repeat;
-    background-size: cover;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.border {
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    padding-bottom: 150px;
 }
 
 .overlay {
@@ -19,18 +23,17 @@ body {
     width: 100%;
     height: 100%;
     color: white;
-    background-color: rgba(61, 61, 61, 0.5);
 }
 
 .section {
-    padding: 10px;
+    padding: 25px;
     width: 100%;
     height: 650px;
     justify-content: center;
 }
 
 .fa-cannabis {
-    display: inline-flex;
+    display: inline-block;
     text-align: center;
     flex-basis: 2px;
     height: 30px;
@@ -41,8 +44,7 @@ body {
 }
 
 .flower {
-    flex-wrap: wrap;
-    text-align: center;
+    flex-direction: row;
     border: 2px solid white;
     border-radius: 10px;
     height: 105px;
@@ -84,12 +86,12 @@ body {
     border-radius: 10px;
     height: 105px;
     width: 90px;
+    margin-top: 15px;
     background: rgba(94, 94, 94, 0.6);
 }
 
-.fa-hand-paper {
-    display: grid;
-    flex-basis: 2px;
+.fa-spray-can {
+    flex-direction: row;
     height: 30px;
     width: 35px;
     padding-top: 25px;
@@ -98,7 +100,7 @@ body {
 }
 
 .topicals {
-    flex-wrap: wrap;
+    flex-direction: row;
     border: 2px solid white;
     border-radius: 10px;
     height: 105px;
@@ -106,47 +108,193 @@ body {
     background: rgba(94, 94, 94, 0.6);
 }
 
+.topicals:hover,.edibles:hover,.flower:hover,.day:hover,.night:hover, .cbd:hover, .hybrid:hover,.concentrates:hover { 
+  background-color: rgba(0, 132, 255, 0.637); 
+}
+
+.topicals:active,.edibles:active,.flower:active,.day:active,.night:active, .hybrid:hover, .cbd:active,.concentrates:active { 
+  background-color: rgba(0, 132, 255, 0.637);   
+}
+
+
 h1 {
     padding: 10px;
     font-family: 'Archivo', sans-serif;
     text-align: center;
-    color: white;
+    color: black;
+}
+
+h2 {
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    color: black;
 }
 
 .form-check-inline {
     top: 20px;
     display: inline-block;
-    padding: 28x;
-    flex-basis: 2;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 label {
-  color: white;
-  margin-left: 10px;
+  font-weight: bold;
+  display: inline-flex;
+  color: black;
+  margin-right: 8px;
   justify-content: center;
   max-width: 10px;
   text-align: center;
   padding: 10px;
+  padding-bottom: 10px;
 }
 
 .form-check-label {
     display: inline-flex;
-    padding: 10px;
-    margin-right: 5px;
-    text-align: right;
+    text-align: center;
     align-content: center;
     justify-content: space-evenly;
+}
+
+.fa-sun {
+    text-align: center;
+    flex-basis: 1px;
+    height: 30px;
+    width: 35px;
+    padding-top: 25px;
+    padding-right: 45px;
+    color: whitesmoke;
+}
+
+.day {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 105px;
+    width: 90px;
+    background: rgba(94, 94, 94, 0.6);
+}
+
+.fa-moon {
+    text-align: center;
+    flex-basis: 2px;
+    height: 30px;
+    width: 35px;
+    padding-top: 25px;
+    padding-right: 45px;
+    color: whitesmoke;
+}
+
+.night {
+    flex-direction: row;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 105px;
+    width: 90px;
+    background: rgba(94, 94, 94, 0.6);
+}
+
+.fa-dna {
+    display: inline-block;
+    text-align: center;
+    flex-basis: 2px;
+    height: 30px;
+    width: 35px;
+    padding-top: 25px;
+    padding-right: 45px;
+    color: whitesmoke;
+}
+
+.hybrid {
+    flex-direction: row;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 105px;
+    width: 90px;
+    background: rgba(94, 94, 94, 0.6);
+}
+
+.fa-plus-square {
+    display: inline-block;
+    text-align: center;
+    flex-basis: 2px;
+    height: 30px;
+    width: 35px;
+    padding-top: 25px;
+    padding-right: 45px;
+    color: whitesmoke;
+}
+
+.cbd {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 105px;
+    width: 90px;
+    background: rgba(94, 94, 94, 0.6);
 }
 
 .form {
     text-align: center;
     padding: 50px;
-
+    text-align: center;
 }
 
-
 .btn-primary {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
     position: relative;
-    display: inline-block;
-    top: 50px;
+}
+
+input[type=checkbox] {
+    display: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#demo {
+    display: inline;
+    padding: 20px;
+}
+.skip {
+    display: inline-flex;
+}
+
+@media only screen and (max-width: 700px) {
+* {
+    margin: 0;
+    padding: 10px;
+    color: white;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(61, 61, 61, 0.5);
+    }
+}
+
+@media only screen and (max-width: 300px) {
+body {
+    margin: 0;
+    height: 768px;
+    width: 664px;
+    padding: 10px;
+    color: white;
+    }
 }
